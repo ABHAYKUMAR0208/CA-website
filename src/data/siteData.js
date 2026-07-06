@@ -17,7 +17,7 @@ export const firm = {
   stats: {
     years: '25+',
     clients: '500+',
-    services: '9',
+    services: '12',
     compliance: '100%',
   },
 };
@@ -208,6 +208,60 @@ export const services = [
       'Convertible note and SAFE documentation',
       'Pitch deck financial modelling',
       'Compliance calendar and automation setup',
+    ],
+  },
+  {
+    id: 'corporate-subsidies-state-incentives',
+    icon: 'Award',
+    title: 'Corporate Subsidies & State Incentives',
+    tagline: 'Unlock the incentives you\u2019ve already earned.',
+    summary:
+      'Specialised advisory to help businesses identify, apply for and secure state and central government financial subsidies — including dedicated RIPS and MSME incentive support.',
+    shortDesc: 'Government subsidy advisory, RIPS benefits and MSME policy support.',
+    idealFor: 'Manufacturers, MSMEs, Investors, Businesses Expanding in Rajasthan',
+    included: [
+      'Government Subsidy Advisory — identifying, applying for and securing state and central financial subsidies',
+      'RIPS Benefits (Rajasthan Investment Promotion Scheme) compliance and consultancy',
+      'RIPS investment subsidy applications',
+      'Employment generation subsidy claims',
+      'Interest and electricity duty exemption applications',
+      'MSME Policy Support — central government grant schemes and manufacturing incentives',
+    ],
+  },
+  {
+    id: 'fema-international-compliance',
+    icon: 'Globe',
+    title: 'FEMA & International Compliance',
+    tagline: 'Cross-border compliance, handled correctly.',
+    summary:
+      'End-to-end FEMA advisory for businesses and individuals dealing with foreign investment — from inbound FDI structuring to outbound ODI compliance and RBI compounding.',
+    shortDesc: 'FDI structuring, ODI compliance and FEMA compounding with RBI.',
+    idealFor: 'Foreign Investors, Indian Companies with Overseas Interests, NRIs',
+    included: [
+      'Foreign Direct Investment (FDI) — structuring inbound investments and equity share allocations',
+      'RBI filings for FDI transactions',
+      'Overseas Direct Investment (ODI) compliance for foreign subsidiaries and joint ventures',
+      'ODI support for offshore asset investments',
+      'FEMA Compounding Procedures — regularising technical or procedural contraventions',
+      'Compounding applications with the Reserve Bank of India (RBI)',
+    ],
+  },
+  {
+    id: 'uae-international-cross-border-services',
+    icon: 'Compass',
+    title: 'UAE & International Cross-Border Services',
+    tagline: 'Your finance partner in the UAE and beyond.',
+    summary:
+      'Dedicated UAE and Middle East advisory covering corporate tax, VAT, business incorporation and outsourced accounting — built for businesses operating across borders.',
+    shortDesc: 'UAE corporate tax, VAT, incorporation and outsourced accounting services.',
+    idealFor: 'UAE-based Entities, Businesses Expanding to the Middle East, NRIs',
+    included: [
+      'UAE Corporate Tax (CT) — implementation, impact assessment, registrations and filings for the 9% regime',
+      'UAE VAT Compliance — standard registrations and periodic return filings',
+      'International tax refund claims',
+      'Offshore & Mainland Incorporations — UAE Free Zone, Mainland and Offshore business setup',
+      'UAE Outsourced Accounting — virtual bookkeeping and management reporting',
+      'Financial accounting compliant with IFRS standards for Middle Eastern entities',
     ],
   },
 ];
@@ -408,4 +462,7 @@ export const servicesQuickList = [
   'TDS Services',
   'Business Advisory',
   'Startup Consultancy',
+  'Corporate Subsidies & State Incentives',
+  'FEMA & International Compliance',
+  'UAE & International Cross-Border Services',
 ];

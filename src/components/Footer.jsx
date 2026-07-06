@@ -56,7 +56,7 @@ export default function Footer() {
         <div>
           <h3 className="text-gold-400 eyebrow text-sm uppercase mb-4">Our Services</h3>
           <ul className="space-y-2.5 text-sm">
-            {servicesQuickList.slice(0, 9).map((s) => (
+            {servicesQuickList.map((s) => (
               <li key={s}>
                 <Link to="/services" className="hover:text-gold-300 transition-colors flex items-center gap-1.5">
                   <span className="text-gold-500">›</span> {s}

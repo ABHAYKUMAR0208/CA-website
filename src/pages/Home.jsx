@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import {
   FileText, Landmark, ShieldCheck, BookOpen, Building2, ClipboardList,
-  FileCheck2, TrendingUp, Rocket, ChevronRight, Award, Users, CheckCircle2, Briefcase, Phone, Mail, Star,
+  FileCheck2, TrendingUp, Rocket, ChevronRight, Award, Globe, Compass, Users, CheckCircle2, Briefcase, Phone, Mail, Star,
 } from 'lucide-react';
 import StatBar from '../components/StatBar';
 import AnimatedNumber from '../components/AnimatedNumber';
@@ -12,6 +12,7 @@ import ConsultationForm from '../components/ConsultationForm';
 
 const iconMap = {
   FileText, Landmark, ShieldCheck, BookOpen, Building2, ClipboardList, FileCheck2, TrendingUp, Rocket,
+  Award, Globe, Compass,
 };
 
 export default function Home() {
@@ -182,7 +183,27 @@ export default function Home() {
         </div>
       </section>
 
-      
+      {/* TESTIMONIALS */}
+      <section className="section-pad bg-white">
+        <div className="max-w-content mx-auto px-6 lg:px-10">
+          <SectionHeading eyebrow="Client Stories" title="What Our Clients Say" />
+          <div className="grid md:grid-cols-3 gap-6">
+            {testimonials.map((t) => (
+              <div key={t.name} className="bg-cream rounded-sm p-7 relative">
+                <p className="font-display text-5xl text-gold-300 leading-none mb-2">&ldquo;</p>
+                <p className="text-navy-600 text-sm leading-relaxed mb-6">{t.quote}</p>
+                <div className="flex gap-1 text-gold-500 mb-3">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star key={i} size={14} fill="currentColor" strokeWidth={0} />
+                  ))}
+                </div>
+                <p className="font-display font-semibold text-navy-800">{t.name}</p>
+                <p className="text-xs text-navy-400">{t.role}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CONSULTATION FORM BAND */}
       <section className="bg-navy-800">
