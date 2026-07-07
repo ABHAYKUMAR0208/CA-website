@@ -121,7 +121,7 @@ export const services = [
     shortDesc: 'Pvt Ltd, LLP, OPC, partnership firm and trust registration end-to-end.',
     idealFor: 'Entrepreneurs, Startups, Professionals, NGOs, Foreign Investors',
     included: [
-      'Public Limited andPrivate Limited',
+      'Public Limited and Private Limited',
       'One Person Company (OPC) registration',
       'Conversion of Partnerships/ Proprietor into company and Vice versa',
       'Conversion of LLP into company and Vice versa',
