@@ -1,8 +1,8 @@
 // Central place for firm content. Edit this file to update text across the whole site.
 
 export const firm = {
-  name: 'Jain Dinesh & Associates',
-  shortName: 'Jain Dinesh & Associates',
+  name: 'Jain Dinesh Kumar & Co',
+  shortName: 'Jain Dinesh Kumar & Co',
   tagline: 'Chartered Accountants',
   strapline: 'Trusted Chartered Accountants — Jaipur, Rajasthan',
   phone1: '+91 7568052266',
@@ -86,7 +86,7 @@ export const services = [
       'Stock and debtors audit',
       'Management audit and efficiency review',
       'Tax audit under Income Tax Act',
-      'Concurrent audit for banks and NBFCs',
+      'Statutory and Concurrent audit for banks and NBFCs',
       'Forensic audit and fraud investigation',
       'Due diligence for M&A transactions',
     ],
@@ -121,14 +121,14 @@ export const services = [
     shortDesc: 'Pvt Ltd, LLP, OPC, partnership firm and trust registration end-to-end.',
     idealFor: 'Entrepreneurs, Startups, Professionals, NGOs, Foreign Investors',
     included: [
-      'Private Limited Company registration',
+      'Public Limited andPrivate Limited',
       'One Person Company (OPC) registration',
-      'Sole proprietorship setup',
-      'MSME / Udyam registration',
+      'Conversion of Partnerships/ Proprietor into company and Vice versa',
+      'Conversion of LLP into company and Vice versa',
       'Limited Liability Partnership (LLP) formation',
-      'Partnership firm deed and registration',
+      'Formation of Producer company',
       'Section 8 company (NGO/Trust) registration',
-      'Startup India recognition',
+      
     ],
   },
   {
@@ -213,7 +213,7 @@ export const services = [
   {
     id: 'corporate-subsidies-state-incentives',
     icon: 'Award',
-    title: 'Corporate Subsidies & State Incentives',
+    title: 'Government Subsidy & State Incentives',
     tagline: 'Unlock the incentives you\u2019ve already earned.',
     summary:
       'Specialised advisory to help businesses identify, apply for and secure state and central government financial subsidies — including dedicated RIPS and MSME incentive support.',
@@ -364,7 +364,7 @@ export const supportTeam = [
 export const testimonials = [
   {
     quote:
-      'Jain Dinesh & Associates have been our trusted CA partners for over 10 years. Their expertise in GST and income tax has saved us significantly. Highly professional and always available.',
+      'Jain Dinesh Kumar & Co have been our trusted CA partners for over 10 years. Their expertise in GST and income tax has saved us significantly. Highly professional and always available.',
     name: 'Rajesh Sharma',
     role: 'Director, Sharma Enterprises',
   },
@@ -462,7 +462,7 @@ export const servicesQuickList = [
   'TDS Services',
   'Business Advisory',
   'Startup Consultancy',
-  'Corporate Subsidies & State Incentives',
+  'Government Subsidy & State Incentives',
   'FEMA & International Compliance',
   'UAE & International Cross-Border Services',
 ];

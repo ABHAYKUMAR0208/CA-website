@@ -1,4 +1,4 @@
-# Jain Dinesh & Associates — Website
+# Jain Dinesh Kumar & Co — Website
 
 A production-ready React website for a chartered accountancy firm, built with Vite, React Router
 and Tailwind CSS.
@@ -63,7 +63,7 @@ Since this uses client-side routing (React Router), configure your host to redir
 `index.html` (a SPA fallback) so deep links like `/services` work on refresh.
 
 
-# Jain Dinesh & Associates — Website
+# Jain Dinesh Kumar & Co — Website
 
 A production-ready React website for a chartered accountancy firm based in Jaipur, Rajasthan,
 built with Vite, React Router, and Tailwind CSS.
