@@ -4,6 +4,8 @@ import PageHero from '../components/PageHero';
 import SectionHeading from '../components/SectionHeading';
 import CtaBand from '../components/CtaBand';
 import { firm, milestones, coreValues, credentials } from '../data/siteData';
+import dineshPhoto from '../assets/team/dinesh.jpeg';
+
 
 const valueIcons = { ShieldCheck, Target, Users, BookOpen, ClipboardCheck, Award };
 
@@ -22,10 +24,10 @@ export default function About() {
         <div className="max-w-content mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-14 items-center">
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=900&q=70"
-              alt="CA Dinesh Jain, Founding Partner"
-              className="rounded-sm w-full h-[440px] object-cover"
-            />
+  src={dineshPhoto}
+  alt="CA Dinesh Jain, Founding Partner"
+  className="rounded-sm w-full h-[440px] object-cover object-[center_20%]"
+/>
             <div className="absolute bottom-4 left-4 bg-navy-900/90 text-white px-4 py-2 rounded-sm">
               <p className="font-semibold text-sm">CA Dinesh Jain</p>
               <p className="text-xs text-gold-300">Founding Partner, FCA</p>

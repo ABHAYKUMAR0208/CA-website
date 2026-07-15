@@ -5,13 +5,16 @@ import StatBar from '../components/StatBar';
 import SectionHeading from '../components/SectionHeading';
 import CtaBand from '../components/CtaBand';
 import { partners, supportTeam, firm } from '../data/siteData';
+import dineshPhoto from '../assets/team/dinesh.jpeg';
+import dhawalPhoto from '../assets/team/dhawal.jpeg';
+import nikitaPhoto from '../assets/team/nikita.jpg';
 
 const supportIcons = { Users, BookOpen, Briefcase };
 
 const partnerPhotos = {
-  dinesh: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=70',
-  dhawal: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=70',
-  nikita: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=700&q=70',
+  dinesh: dineshPhoto,
+  dhawal: dhawalPhoto,
+  nikita: nikitaPhoto,
 };
 
 function PartnerCard({ p, reversed }) {
