@@ -115,7 +115,7 @@ export default function Team() {
         stats={[
           { value: '3', label: 'Qualified CAs' },
           { value: '41+', label: 'Combined Years' },
-          { value: '500+', label: 'Clients Served' },
+          { value: '1000+', label: 'Clients Served' },
           { value: '9', label: 'Practice Areas' },
         ]}
       />

@@ -104,7 +104,7 @@ export default function Services() {
         <div className="max-w-content mx-auto px-6 lg:px-10 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           {[
             { value: '25+', label: 'Years Experience' },
-            { value: '500+', label: 'Happy Clients' },
+            { value: '1000+', label: 'Happy Clients' },
             { value: '100%', label: 'Compliance Record' },
             { value: '12', label: 'Practice Areas' },
           ].map((s) => (
