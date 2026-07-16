@@ -16,7 +16,7 @@ export const firm = {
   founded: 1999,
   stats: {
     years: '25+',
-    clients: '500+',
+    clients: '1000+',
     services: '12',
     compliance: '100%',
   },
