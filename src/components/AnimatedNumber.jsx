@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 /**
- * Parses a display string like "25+", "500+", "100%", "9" into a numeric
+ * Parses a display string like "25+", "1000+", "100%", "9" into a numeric
  * target plus a prefix/suffix, then animates counting from 0 up to that
  * number once the element scrolls into view.
  */

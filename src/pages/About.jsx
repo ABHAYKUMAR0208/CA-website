@@ -57,6 +57,9 @@ export default function About() {
               ensuring every client receives solutions that are legally sound, strategically optimal and
               delivered with care.
             </p>
+            <p className="text-navy-500 leading-relaxed mb-8">
+              Our firm is a Peer Reviewed Practice Unit, holding a valid Peer Review Certificate issued by the Institute of Chartered Accountants of India (ICAI) valid till 31 Aug 2028.
+            </p>
             <div className="grid grid-cols-3 gap-4 mb-8">
               {[
                 { value: firm.stats.years, label: 'Years' },

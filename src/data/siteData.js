@@ -134,7 +134,7 @@ export const services = [
   {
     id: 'roc-compliance',
     icon: 'ClipboardList',
-    title: 'ROC Compliance',
+    title: 'MCA Compliance',
     tagline: 'Stay compliant with MCA regulations.',
     summary:
       'Comprehensive company law compliance services to keep your company in good standing with the Registrar of Companies and avoid penalties.',
@@ -282,7 +282,7 @@ export const partners = [
       'B.Com (Hons.) — University of Rajasthan',
       'FCA — Fellow Chartered Accountant, ICAI',
       'Diploma in Information Systems Audit (DISA)',
-      'Certified Concurrent Auditor — RBI',
+      'M.Com — University of Rajasthan',
     ],
     expertise: [
       'Income Tax Assessments & Appeals',
@@ -290,7 +290,8 @@ export const partners = [
       'Tax Planning for HNIs',
       'Corporate Advisory',
       'Family Business Succession',
-      'Bank Audit & Concurrent Audit',
+      'Statutory Bank Audit & Concurrent Audit',
+      'Corporate Advisory & Compliance',
     ],
   },
   {
@@ -308,13 +309,14 @@ export const partners = [
       'FCA — Fellow Chartered Accountant, ICAI',
       'Certificate Course in UAE Corporate Tax — ICAI',
       'Certificate Course in Concurrent Audit of Banks — ICAI',
+      'Cost and Management Accounting (CMA)',
     ],
     expertise: [
       'GST Registration & Returns',
       'GST Audit & Reconciliation',
       'Income Tax Filing & Planning',
       'Company & LLP Registration',
-      'ROC Compliance',
+      'MCA Compliance',
       'Startup & MSME Advisory',
     ],
   },
