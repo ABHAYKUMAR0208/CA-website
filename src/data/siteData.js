@@ -318,6 +318,8 @@ export const partners = [
       'Company & LLP Registration',
       'MCA Compliance',
       'Startup & MSME Advisory',
+      'Government Subsidy & State Incentives Fema & International Compliance UAE & International Cross-Border Advisory',
+      'Empaneled as a Peer Reviewer with the Peer Review Board of Institue of Chartered Accountants of India (ICAI)',
     ],
   },
   {
